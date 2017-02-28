@@ -1,0 +1,23 @@
+/*
+Project: CONSTRUCTORA 
+*/
+
+
+/* HOME*/
+.testimonials {
+    background: url(../images/testimonials-section-bg.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0 0 22px 0;
+}
+
+.team-members-section {
+    background: url(../images/team-members.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0 0 64px 0;
+}
