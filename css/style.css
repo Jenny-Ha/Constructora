@@ -21,3 +21,10 @@ Project: CONSTRUCTORA
     background-size: cover;
     padding: 0 0 64px 0;
 }
+/* Showreel*/
+.call-to-action {
+    background: url(../images/bg-cta.png) top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

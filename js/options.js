@@ -464,7 +464,8 @@
 			function initialize() {
 		        var mapCanvas = document.getElementById('map');
 		        var mapOptions = {
-                    center: new google.maps.LatLng(38.954771,-84.275544),
+                    //center: new google.maps.LatLng(38.954771,-84.275544),
+                    center: new google.maps.LatLng(-16.410809,-16.40880852),
                     zoom: 16,
                     scrollwheel: false,
                     disableDefaultUI: true,
@@ -472,7 +473,8 @@
                     styles: [{ stylers: [{saturation: -100}]}]
                 };
 		        var map = new google.maps.Map(mapCanvas, mapOptions);
-		    }
+		    } 
+			//src="&bbox=-16.410809%2C-71.539010%7C-16.406809%2C-71.523010&markers=-16.40880852%2C-71.52700961&language=es_LA"
 
 		    if (jQuery('#map').length) {
 		        google.maps.event.addDomListener(window, 'load', initialize);
