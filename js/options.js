@@ -465,7 +465,8 @@
 		        var mapCanvas = document.getElementById('map');
 		        var mapOptions = {
                     //center: new google.maps.LatLng(38.954771,-84.275544),
-                    center: new google.maps.LatLng(-16.410809,-16.40880852),
+                    
+					center: new google.maps.LatLng(-16.406809,-71.523010),
                     zoom: 16,
                     scrollwheel: false,
                     disableDefaultUI: true,
