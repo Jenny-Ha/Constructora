@@ -23,8 +23,6 @@ Project: CONSTRUCTORA
 }
 /* Showreel*/
 .call-to-action {
-    background: url(../images/bg-cta.png) top center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: url(../images/bg-cta.png) repeat scroll center top;
     background-size: cover;
 }
