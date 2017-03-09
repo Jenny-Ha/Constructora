@@ -1,7 +1,26 @@
-/*
-Project: CONSTRUCTORA 
-*/
+/*===============================================
+            Project: CONSTRUCTORA 
+===============================================*/
 
+/** GENERALES **/
+.slotholder::before {
+    position: absolute;
+    display: block;
+    content: " ";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(10,10,10, 0.25);
+    z-index: 21;
+}
+
+/** SLIDER **/
+.slide-title,
+.slide-content {
+    position: relative;
+    z-index: 22 !important;
+}
 
 /* HOME*/
 .testimonials {
@@ -23,6 +42,17 @@ Project: CONSTRUCTORA
 }
 /* Showreel*/
 .call-to-action {
-    background: url(../images/bg-cta.png) repeat scroll center top;
+    background: url(../images/bg-cta.png) center top;
+    -webkit-background-size: cover;
     background-size: cover;
+}
+.call-to-action::before {
+    position: absolute;
+    display: block;
+    content: " ";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(10,10,10, 0.25);
 }
