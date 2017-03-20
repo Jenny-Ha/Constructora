@@ -19,7 +19,7 @@
 .slide-title {
     font-size: 40px !important;
     display: inline-block;
-    max-width: 900px !important;
+    /*max-width: 900px !important;*/
     -webkit-word-wrap: break-word;
     -moz-word-wrap: break-word;
     -ms-word-wrap: break-word;
@@ -29,7 +29,8 @@
 .slide-content {
     font-size: 18px !important;
     display: inline-block;
-    max-width: 900px !important;
+    line-height: 1.5;
+    /*max-width: 900px !important;*/
     -webkit-word-wrap: break-word;
     -moz-word-wrap: break-word;
     -ms-word-wrap: break-word;
@@ -40,6 +41,9 @@
 .slide-content {
     position: relative;
     z-index: 22 !important;
+}
+.tp-caption {
+    text-align: center !important;
 }
 /*.tp-caption {
     -webkit-word-wrap: break-word;
