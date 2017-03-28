@@ -14,7 +14,12 @@
     background-color: rgba(10,10,10, 0.25);
     z-index: 21;
 }
-
+/*      BOOTNES */
+.btn.cyan {
+    background: #0089c3;
+    border-color: #0089c3;
+    color: #fff;
+}
 /** SLIDER **/
 .slide-title {
     font-size: 40px !important;
