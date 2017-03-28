@@ -16,13 +16,19 @@
 }
 /*      BOOTNES */
 a:hover {
-    color: #0089c3;
+    color: rgb(0, 148, 214);
     text-decoration: none;
 }
 .btn.cyan {
-    background: #0089c3;
-    border-color: #0089c3;
+    background: rgb(0, 148, 214);
+    border-color: rgb(0, 148, 214);
     color: #fff;
+}
+header .main-nav ul > li:hover > a {
+    color: rgb(0, 148, 214);
+}
+.widget.widget_contact .contact-info li .socials li a:hover{
+    color: rgb(0, 148, 214);
 }
 /** SLIDER **/
 .slide-title {
