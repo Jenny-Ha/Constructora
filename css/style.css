@@ -15,6 +15,10 @@
     z-index: 21;
 }
 /*      BOOTNES */
+a:hover {
+    color: #0089c3;
+    text-decoration: none;
+}
 .btn.cyan {
     background: #0089c3;
     border-color: #0089c3;
@@ -118,4 +122,8 @@
     right: 0;
     bottom: 0;
     background-color: rgba(10,10,10, 0.25);
+}
+
+.portfolio-box.big .description {
+    text-align: justify;
 }
