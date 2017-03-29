@@ -34,6 +34,8 @@ header .main-nav ul > li:hover > a {
 .slide-title {
     font-size: 40px !important;
     display: inline-block;
+    line-height: 1 !important;
+    margin-bottom: 20px !important;
     /*max-width: 900px !important;*/
     -webkit-word-wrap: break-word;
     -moz-word-wrap: break-word;
@@ -42,9 +44,9 @@ header .main-nav ul > li:hover > a {
     word-wrap: break-word;
 }
 .slide-content {
-    font-size: 18px !important;
+    font-size: 16px !important;
     display: inline-block;
-    line-height: 1.5;
+    line-height: 1.5 !important;
     /*max-width: 900px !important;*/
     -webkit-word-wrap: break-word;
     -moz-word-wrap: break-word;
@@ -56,6 +58,7 @@ header .main-nav ul > li:hover > a {
 .slide-content {
     position: relative;
     z-index: 22 !important;
+    display: inline-block;
 }
 .tp-caption {
     text-align: center !important;

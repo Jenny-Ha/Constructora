@@ -471,7 +471,7 @@
                     scrollwheel: false,
                     disableDefaultUI: true,
                     mapTypeId: google.maps.MapTypeId.ROADMAP,
-                    styles: [{ stylers: [{saturation: -100}]}]
+                    styles: []
                 };
 		        var map = new google.maps.Map(mapCanvas, mapOptions);
 		    } 
