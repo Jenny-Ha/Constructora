@@ -138,7 +138,3 @@ header .main-nav ul > li:hover > a {
     background-color: rgba(10,10,10, 0.25);
 }
 
-/* Proyectos */
-.portfolio-box.big .description {
-    text-align: justify;
-}
