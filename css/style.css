@@ -19,7 +19,7 @@
     text-align: justify;
 }
 
-/*      BOOTNES */
+/*      BOTONES */
 a:hover {
     color: rgb(0, 148, 214);
     text-decoration: none;
@@ -27,6 +27,11 @@ a:hover {
 .btn.cyan {
     background: rgb(0, 148, 214);
     border-color: rgb(0, 148, 214);
+    color: #fff;
+}
+.btn.grey:hover {
+    background: rgb(0, 148, 214);;
+    border-color: rgb(0, 148, 214);;
     color: #fff;
 }
 header .main-nav ul > li:hover > a {
@@ -37,7 +42,7 @@ header .main-nav ul > li:hover > a {
 }
 /** SLIDER **/
 .slide-title {
-    font-size: 45px !important;
+    font-size: 48px !important;
     display: inline-block;
     line-height: 1 !important;
     margin-bottom: 20px !important;
