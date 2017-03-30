@@ -14,6 +14,11 @@
     background-color: rgba(10,10,10, 0.25);
     z-index: 21;
 }
+/** UTILITIES **/
+.align-justify {
+    text-align: justify;
+}
+
 /*      BOOTNES */
 a:hover {
     color: rgb(0, 148, 214);
@@ -116,7 +121,7 @@ header .main-nav ul > li:hover > a {
     background-size: cover;
     padding: 0 0 64px 0;
 }
-/* Showreel*/
+/* Nosotros */
 .call-to-action {
     background: url(../images/bg-cta.png) center top;
     -webkit-background-size: cover;
@@ -133,6 +138,7 @@ header .main-nav ul > li:hover > a {
     background-color: rgba(10,10,10, 0.25);
 }
 
+/* Proyectos */
 .portfolio-box.big .description {
     text-align: justify;
 }
