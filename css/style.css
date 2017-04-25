@@ -19,7 +19,7 @@
     text-align: justify;
 }
 
-/*      BOTONES */
+/**  BOTONES **/
 a:hover {
     color: rgb(0, 148, 214);
     text-decoration: none;
@@ -95,7 +95,7 @@ header .main-nav ul > li:hover > a {
     white-space: 
 }
 
-/* HOME*/
+/** HOME **/
 .testimonials {
     background: url(../images/testimonials-section-bg.png);
     background-position: 50% 50%;
@@ -142,4 +142,24 @@ header .main-nav ul > li:hover > a {
     bottom: 0;
     background-color: rgba(10,10,10, 0.25);
 }
+/** PROJECTOS **/
+@media (min-width: 1200px ) {
+    .gallery-item.ubication .cover img {
+        min-height: 200px;
+    }
+}
+@media (max-width: 991px ) {
+    .gallery-item.ubication .cover img  {
+        min-height: 173px;
+    }
+}
 
+@media (max-width: 768px) {
+    .blog-posts-list .blog-post .gallery .gallery-item.ubication {
+        width: 100%;
+    }
+    .gallery-item.ubication .cover img  {
+        min-height: auto;
+        width: 100%;
+    }
+}
