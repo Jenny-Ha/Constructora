@@ -64,6 +64,14 @@ header .main-nav ul > li:hover > a {
     -o-word-wrap: break-word;
     word-wrap: break-word;
 }
+@media screen and (max-width: 767px) {
+    .slide-title{
+
+    }
+    .slide-content {
+        display: none !important;
+    }
+}
 .slide-title,
 .slide-content {
     position: relative;
@@ -97,7 +105,7 @@ header .main-nav ul > li:hover > a {
 
 /** HOME **/
 .testimonials {
-    background: url(../images/testimonials-section-bg.png);
+    background: url(../images/testimonials-section-bg.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -119,7 +127,7 @@ header .main-nav ul > li:hover > a {
     position: relative; /* Para que pueda ponerse sobre el oerlay*/
 }
 .team-members-section {
-    background: url(../images/team-members.png);
+    background: url(../images/team-members.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -128,7 +136,7 @@ header .main-nav ul > li:hover > a {
 }
 /* Nosotros */
 .call-to-action {
-    background: url(../images/bg-cta.png) center top;
+    background: url(../images/bg-cta.jpg) center top;
     -webkit-background-size: cover;
     background-size: cover;
 }
